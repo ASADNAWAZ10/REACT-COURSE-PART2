@@ -27,7 +27,7 @@ const ReuseComp = () => {
     <div>
       <h1>reuse component</h1>
       {userData.map((user) => {
-        <div>{user.name}</div>;
+       return <div>{user.name}</div>;
       })}
     </div>
   );
