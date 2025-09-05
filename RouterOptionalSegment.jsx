@@ -1,8 +1,5 @@
 import React from "react";
 
-// Optional Segment: it's route paramter where this paramter will be present or not be
-// present.
-
 function RouterOptionalSegment() {
   return (
     <div>
