@@ -29,7 +29,7 @@ const UpdateArray = () => {
         onChange={(e) => hanldeUser(e.target.value)}
       />
       {data.map((item, index) => {
-        <h3 key={index}>{item}</h3>;
+       return <h3 key={index}>{item}</h3>;
       })}
       <hr />
 
@@ -39,8 +39,7 @@ const UpdateArray = () => {
         onChange={(e) => hanldeAge(e.target.value)}
       />
       {detail.map((items, index) => {
-        <h2 key={index}>
-          {items.name},{items.Age}
+       return  {items.name},{items.Age}
         </h2>;
       })}
     </div>
