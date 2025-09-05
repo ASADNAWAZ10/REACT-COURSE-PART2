@@ -73,7 +73,7 @@ const Nasted = () => {
     <div>
       <h1>Nasted loop with component</h1>
       {collegeName.map((college, index) => {
-        <div key={index}>
+       return <div key={index}>
           <h2>collegeName:{college.name}</h2>
           <ul>
             <li>
@@ -86,7 +86,7 @@ const Nasted = () => {
             <li>
               <h2>student</h2>
               {college.student.map((student) => {
-                <ul>
+               return <ul>
                   <li>studentName:{student.name}</li>
                 </ul>;
               })}
