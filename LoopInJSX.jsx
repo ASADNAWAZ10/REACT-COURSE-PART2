@@ -31,7 +31,7 @@ const LoopInJSX = () => {
         </thead>
         <tbody>
           {userdata.map((item, index) => {
-            <tr key={index}>
+           return <tr key={index}>
               <td>{item.name}</td>
               <td>{item.age}</td>
               <td>{item.college_name}</td>
